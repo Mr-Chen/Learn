@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
         String conflict = "主分支";
     }
 
-
-    public void master() {
+    public void master(){
         String master = "master分支";
     }
+
 
     public void dev() {
         String dev = "开发分支";
@@ -49,4 +49,5 @@ public class MainActivity extends AppCompatActivity {
     public void revert() {
 
     }
+
 }
