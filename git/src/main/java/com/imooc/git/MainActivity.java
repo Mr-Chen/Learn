@@ -32,4 +32,8 @@ public class MainActivity extends AppCompatActivity {
     public void masterConflict() {
         String conflict = "主分支";
     }
+
+    public void master(){
+        String master = "master分支";
+    }
 }
