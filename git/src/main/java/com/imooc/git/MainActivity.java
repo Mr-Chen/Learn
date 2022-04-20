@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         git();
+        gitDev();
     }
 
     /**
@@ -18,6 +19,14 @@ public class MainActivity extends AppCompatActivity {
      */
     private void git() {
         String master = "master";
+    }
+
+    /*
+    dev 分支
+     */
+    private void gitDev() {
+
+        String dev = "dev";
     }
 
     public void masterConflict() {
