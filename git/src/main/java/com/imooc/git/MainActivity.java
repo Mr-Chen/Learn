@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         String str;
 
         String push = "测试提交";
+        String saf = "测试提交";
     }
 }
