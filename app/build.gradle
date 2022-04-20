@@ -1,0 +1,129 @@
+plugins {
+    id 'com.android.application'
+}
+
+// 依赖插件脚本
+//apply from: 'tinker-support.gradle'
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.imooc.learn"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "qihu"]
+
+        flavorDimensions "versionCode"
+
+
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+
+
+    }
+
+    signingConfigs {//1配置簽名文件
+        debug {}
+        release {
+            storeFile file("sign.jks")
+            storePassword "123456"
+            keyAlias "learn"
+            keyPassword "123456"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            //2使用簽名信息
+            signingConfig signingConfigs.release
+
+            //指定release包的输出文件名就是渠道名
+          /*  applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith(".apk")) {
+                        def fileName = "${variant.productFlavors[0].name}" +".apk"
+                        output.outputFile = new File(outputFile.parent,fileName);
+                    }
+                }
+
+            }*/
+
+            applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def fileName = "${variant.flavorName}" + ".apk"
+                    setOutputFileName(fileName)
+                }
+            }
+
+        }
+        debug {}
+    }
+
+    productFlavors {
+        qihu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "360"]
+        }
+
+        baidu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+        }
+
+        qq {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "qq"]
+        }
+
+        productFlavors.all {
+            flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        }
+    }
+
+
+    sourceSets {//指定so文件存放位置
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+// 下面各SDK根据宿主App是否使用相关业务按需引入。
+// 友盟统计SDK
+    implementation 'com.umeng.umsdk:common:9.4.7'// 必选
+    implementation 'com.umeng.umsdk:asms:1.4.1'// 必选
+
+  /*  //热更新
+    implementation "com.android.support:multidex:1.0.1" // 多dex配置
+    //注释掉原有bugly的仓库
+    //compile 'com.tencent.bugly:crashreport:latest.release'//其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.3.4
+    implementation 'com.tencent.bugly:crashreport_upgrade:1.3.6'
+    // 指定tinker依赖版本（注：应用升级1.3.5版本起，不再内置tinker）
+    implementation 'com.tencent.tinker:tinker-android-lib:1.9.9'
+    implementation 'com.tencent.bugly:nativecrashreport:latest.release' //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.2.0*/
+
+}
+

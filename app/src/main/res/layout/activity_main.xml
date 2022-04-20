@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:shadowColor="@android:color/holo_red_light"
+        android:shadowDx="8.0"
+        android:shadowDy="8.0"
+        android:shadowRadius="3.0"
+        android:singleLine="true"
+        android:text="跑马灯效果跑马灯效果跑马灯效果跑马灯效果跑马灯效果"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="gone">
+
+        <requestFocus />
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/vc_user"
+        android:drawablePadding="5dp"
+        android:hint="请输入密码"
+        android:inputType="numberPassword"
+        android:textColorHint="#ccc"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/selector_button"
+        android:backgroundTint="@color/slector_button_color"
+        android:text="按钮"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/p2"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/pb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_secondary"
+            android:onClick="progressClick"
+            android:text="按钮"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/pb2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:max="100" />
+        <!--android:indeterminate="true" 不显示进度-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_secondary"
+            android:onClick="sendNotify"
+            android:text="发送通知" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/design_default_color_secondary"
+            android:onClick="cancelNotify"
+            android:text="取消通知" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+pluginManagement {
+    repositories {
+
+   /*     maven {
+            url = "https://maven.aliyun.com/nexus/content/groups/public/"}
+
+        gradlePluginPortal()
+        google()
+        mavenCentral()*/
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/google' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin' }
+
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/google' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin' }
+
+
+        /*  maven {
+
+              url = "https://maven.aliyun.com/nexus/content/groups/public/"
+          }
+          google()
+          mavenCentral()*/
+    }
+}
+rootProject.name = "Learn"
+include ':app'
+include ':toolbar'
+include ':alertdialog'
+include ':popupwindow'
+include ':layout'
+include ':listview'
+include ':recyclerview'
+include ':anim'
+include ':viewpager'
+include ':fragment'
+include ':viewpager2'
+include ':map'
+include ':internet'
+include ':media'

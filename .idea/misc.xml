@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WorkSpace/Learn/alertdialog/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.104" />
+        <entry key="..\:/WorkSpace/Learn/alertdialog/src/main/res/drawable/ic_launcher_background.xml" value="0.104" />
+        <entry key="..\:/WorkSpace/Learn/alertdialog/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/WorkSpace/Learn/alertdialog/src/main/res/layout/layout_dialog.xml" value="0.1" />
+        <entry key="..\:/WorkSpace/Learn/anim/src/main/res/drawable/frame.xml" value="0.18" />
+        <entry key="..\:/WorkSpace/Learn/anim/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
+        <entry key="..\:/WorkSpace/Learn/app/src/main/res/drawable/selector_button.xml" value="0.1875" />
+        <entry key="..\:/WorkSpace/Learn/app/src/main/res/drawable/vc_sun.xml" value="0.1875" />
+        <entry key="..\:/WorkSpace/Learn/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/WorkSpace/Learn/fragment/src/main/res/layout/activity_main.xml" value="0.22083333333333333" />
+        <entry key="..\:/WorkSpace/Learn/fragment/src/main/res/layout/activity_replace.xml" value="0.22083333333333333" />
+        <entry key="..\:/WorkSpace/Learn/fragment/src/main/res/layout/fragment_replace_frag1.xml" value="0.22083333333333333" />
+        <entry key="..\:/WorkSpace/Learn/fragment/src/main/res/layout/fragment_replace_frag2_list.xml" value="0.20625" />
+        <entry key="..\:/WorkSpace/Learn/internet/src/main/res/layout/activity_glide.xml" value="0.20108695652173914" />
+        <entry key="..\:/WorkSpace/Learn/internet/src/main/res/layout/activity_main.xml" value="0.20108695652173914" />
+        <entry key="..\:/WorkSpace/Learn/internet/src/main/res/layout/activity_ok_http.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/internet/src/main/res/layout/activity_retrofitctivity.xml" value="0.19322916666666667" />
+        <entry key="..\:/WorkSpace/Learn/layout/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
+        <entry key="..\:/WorkSpace/Learn/listview/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
+        <entry key="..\:/WorkSpace/Learn/listview/src/main/res/layout/item_list.xml" value="0.176" />
+        <entry key="..\:/WorkSpace/Learn/map/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/WorkSpace/Learn/map/src/main/res/layout/activity_search.xml" value="0.1484375" />
+        <entry key="..\:/WorkSpace/Learn/map/src/main/res/layout/item_rv.xml" value="0.536" />
+        <entry key="..\:/WorkSpace/Learn/map/src/main/res/layout/layout_privacy.xml" value="0.264" />
+        <entry key="..\:/WorkSpace/Learn/media/src/main/res/layout/activity_main.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/media/src/main/res/layout/activity_player.xml" value="0.24114583333333334" />
+        <entry key="..\:/WorkSpace/Learn/media/src/main/res/layout/activity_record_video.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/media/src/main/res/layout/activity_sound_pool.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/media/src/main/res/layout/item_sound.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/popupwindow/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/WorkSpace/Learn/popupwindow/src/main/res/layout/layout_popupwindow.xml" value="0.1" />
+        <entry key="..\:/WorkSpace/Learn/recyclerview/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
+        <entry key="..\:/WorkSpace/Learn/recyclerview/src/main/res/layout/item_recycler.xml" value="0.19427083333333334" />
+        <entry key="..\:/WorkSpace/Learn/toolbar/src/main/res/layout/activity_main.xml" value="0.21510416666666668" />
+        <entry key="..\:/WorkSpace/Learn/viewpager/src/main/res/layout/activity_main.xml" value="0.22083333333333333" />
+        <entry key="..\:/WorkSpace/Learn/viewpager/src/main/res/layout/layout1.xml" value="0.22083333333333333" />
+        <entry key="..\:/WorkSpace/Learn/viewpager/src/main/res/layout/layout2.xml" value="0.22083333333333333" />
+        <entry key="..\:/WorkSpace/Learn/viewpager/src/main/res/layout/layout3.xml" value="0.22083333333333333" />
+        <entry key="..\:/WorkSpace/Learn/viewpager2/src/main/res/drawable/sl_tab_four.xml" value="0.1155" />
+        <entry key="..\:/WorkSpace/Learn/viewpager2/src/main/res/drawable/sl_tab_one.xml" value="0.1155" />
+        <entry key="..\:/WorkSpace/Learn/viewpager2/src/main/res/drawable/sl_tab_three.xml" value="0.1155" />
+        <entry key="..\:/WorkSpace/Learn/viewpager2/src/main/res/drawable/sl_tab_two.xml" value="0.1155" />
+        <entry key="..\:/WorkSpace/Learn/viewpager2/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/WorkSpace/Learn/viewpager2/src/main/res/layout/frag_blank.xml" value="0.13958333333333334" />
+        <entry key="..\:/WorkSpace/Learn/viewpager2/src/main/res/menu/manu_tab.xml" value="0.19166666666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
