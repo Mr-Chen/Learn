@@ -45,4 +45,8 @@ public class MainActivity extends AppCompatActivity {
     public void devNewData() {
         String dev = "开发分支新数据";
     }
+
+    public void revert() {
+
+    }
 }
