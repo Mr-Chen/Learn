@@ -19,4 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private void git() {
         String master = "master";
     }
+
+    public void masterConflict() {
+        String conflict = "主分支";
+    }
 }
