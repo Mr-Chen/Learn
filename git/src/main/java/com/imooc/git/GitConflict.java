@@ -6,4 +6,5 @@ package com.imooc.git;
  * Explain  :  冲突
  */
 public class GitConflict {
+    String con = "master分支 冲突内容";
 }
