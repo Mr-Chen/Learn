@@ -28,5 +28,5 @@ package com.imooc.git;
  *
  */
 public class GitBranch {
-    String dev = "远程dev分支";
+
 }
