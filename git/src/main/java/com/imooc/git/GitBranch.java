@@ -5,6 +5,7 @@ package com.imooc.git;
  * Date     ： 2022/4/21 09:52
  * Explain  :  分支
  *
+ * gitc fetch 读取远程仓库最新状态
  * git branch 查看所有分支 *标记当前所在分支
  * git branch -a 查看本地与远程分支(all)
  * git branch dev 新建分支
