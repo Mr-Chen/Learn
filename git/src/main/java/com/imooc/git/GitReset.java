@@ -8,6 +8,7 @@ package com.imooc.git;
  * git status 查看状态
  * git log 查看提交日志
  * git log -5 --pretty=oneline  log输出格式化
+ * gitk& 日志工具
  *
  *  git add --all  添加所有工作区文件到暂存区
  *  git commit -m "说明" 将暂存区的文件提交到本地仓库
@@ -20,4 +21,5 @@ public class GitReset {
     String one = "第一个版本";
     String two = "第二个版本";
     String three = "第三个版本";
+    String four = "第四个版本";
 }
