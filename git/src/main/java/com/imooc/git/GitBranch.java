@@ -29,5 +29,7 @@ package com.imooc.git;
  */
 public class GitBranch {
     String dev = "分支";
+
     String conflict = "master分支";
+    String new_master_conflict = "new_master分支";
 }
