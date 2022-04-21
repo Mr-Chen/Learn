@@ -11,7 +11,7 @@ package com.imooc.git;
  * git tag -d v1.0 删除本地标签
  * git push origin v1.0 推送本地标签到远程
  * git push origin --tags 推送全部未推送的本地标签到远程
- * git push origin :refs/tags/v1.0 删除远程标签
+ * git push origin :refs/tags/v1.0 删除一个远程标签
  */
 public class GitTag {
 }
