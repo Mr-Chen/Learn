@@ -29,5 +29,9 @@ package com.imooc.git;
  *
  */
 public class GitBranch {
+<<<<<<< HEAD
 
+=======
+    String dev = "分支";
+>>>>>>> dev
 }
