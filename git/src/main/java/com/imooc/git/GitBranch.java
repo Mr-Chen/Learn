@@ -21,6 +21,8 @@ package com.imooc.git;
  * git push origin :branch_name 删除远程分支，本地保留
  * git checkout -b local_branch origin/remote_branch 拉取远程指定分支并在本地创建分支
  *
+ * git branch -u remote_branch  新建分支关联远程分支
+ *
  *
  * git branch -vv 查看分支与远程分支绑定关系
  *
