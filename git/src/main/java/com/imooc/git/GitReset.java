@@ -19,4 +19,5 @@ package com.imooc.git;
 public class GitReset {
     String one = "第一个版本";
     String two = "第二个版本";
+    String three = "第三个版本";
 }
