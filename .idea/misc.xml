@@ -32,6 +32,19 @@
         <entry key="..\:/WorkSpace/Learn/media/src/main/res/layout/activity_record_video.xml" value="0.22552083333333334" />
         <entry key="..\:/WorkSpace/Learn/media/src/main/res/layout/activity_sound_pool.xml" value="0.22552083333333334" />
         <entry key="..\:/WorkSpace/Learn/media/src/main/res/layout/item_sound.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/drawable/select_cart.xml" value="0.1275" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/drawable/select_home.xml" value="0.1275" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/drawable/select_mine.xml" value="0.1275" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/layout/activity_splash.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/layout/fragment_cart.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/layout/fragment_home.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/layout/fragment_mine.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/layout/home_recycler_banner.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/layout/home_recycler_image.xml" value="0.26338199513381993" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/layout/home_recycler_image_text.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/layout/home_recycler_text.xml" value="0.22552083333333334" />
+        <entry key="..\:/WorkSpace/Learn/mvp/src/main/res/menu/bottom_nav_menu.xml" value="0.184375" />
         <entry key="..\:/WorkSpace/Learn/popupwindow/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/WorkSpace/Learn/popupwindow/src/main/res/layout/layout_popupwindow.xml" value="0.1" />
         <entry key="..\:/WorkSpace/Learn/recyclerview/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
